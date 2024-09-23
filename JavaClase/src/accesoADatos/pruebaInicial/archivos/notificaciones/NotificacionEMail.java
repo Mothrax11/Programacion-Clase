@@ -10,7 +10,6 @@ public class NotificacionEMail extends Notificacion{
     private String direccion;
     
     public NotificacionEMail (){
-
         this.id = id;
         this.dia = dia;
         this.mes = mes;

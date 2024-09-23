@@ -1,6 +1,5 @@
 package accesoADatos.pruebaInicial.archivos;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 import accesoADatos.pruebaInicial.archivos.documentaciones.Documentacion;
 import accesoADatos.pruebaInicial.archivos.documentaciones.Nie;
@@ -19,7 +18,7 @@ public class Cliente {
     private int dia;
     private int mes;
     private int ano;
-    private ArrayList<Notificacion> notificaciones;
+
     
     public Cliente (Documentacion id, String nombre, String direccion, String telefono, int dia, int mes, int ano, char pagoPref){
 
@@ -32,7 +31,6 @@ public class Cliente {
         this.ano = ano;
         this.pagoPref = pagoPref;
         this.suscripcion = false;
-        notificaciones = new ArrayList<>();
 
     }
 
