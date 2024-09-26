@@ -1,4 +1,4 @@
-package accesoADatos.gestionFicheros;
+package accesoADatos.gestionFicheros.lecturaEscritura;
 import java.io.File;
 import java.io.IOException;
 
