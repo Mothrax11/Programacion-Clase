@@ -41,6 +41,7 @@ public class E803 {
             bw.close();
             fr.close();
             fw.close();
+            sc.close();
         } catch(Exception e){
             System.out.println(e.getMessage());
         }
