@@ -1,9 +1,9 @@
-package accesoADatos.gestionFicheros.ejerciciosFicheros.ej2;
+package accesoADatos.gestionFicheros.ejerciciosFicheros.ej802;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileReader;
 
-public class e802 {
+public class E802 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String rutaArchivo = sc.nextLine();

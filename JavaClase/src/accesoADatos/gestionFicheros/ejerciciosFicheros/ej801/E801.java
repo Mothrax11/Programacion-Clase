@@ -1,4 +1,4 @@
-package accesoADatos.gestionFicheros.ejerciciosFicheros.ej1;
+package accesoADatos.gestionFicheros.ejerciciosFicheros.ej801;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
 
-public class e801 {
+public class E801 {
     public static void main(String[] args) {
         File fich = new File("JavaClase\\src\\accesoADatos\\gestionFicheros\\ejerciciosFicheros\\ej1\\entrada801.dat");
         ArrayList <Double> edades = new ArrayList<>();
@@ -75,6 +75,8 @@ public class e801 {
                     mediaDiferencias = mediaDiferencias / nAlumnos;
                     double raiz =  Math.sqrt(mediaDiferencias);
                     System.out.println("Desviación estándar: " + raiz);
+
+                    dis.close();
                 }
 
         } catch (Exception e) {
