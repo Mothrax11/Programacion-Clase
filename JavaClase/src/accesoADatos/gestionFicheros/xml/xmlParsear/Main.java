@@ -1,4 +1,4 @@
-package accesoADatos.gestionFicheros.xml;
+package accesoADatos.gestionFicheros.xml.xmlParsear;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
@@ -35,7 +35,7 @@ public class Main {
         int numero =  sc.nextInt();
         crearElemento("numero", Integer.toString(numero), ele, document);
         System.out.println("Dame el salario del empleado");
-        float salario=  sc.nextFloat();
+        float salario =  sc.nextFloat();
         crearElemento("salario", Float.toString(salario), ele, document);
 
         Source  source = new DOMSource(document );
