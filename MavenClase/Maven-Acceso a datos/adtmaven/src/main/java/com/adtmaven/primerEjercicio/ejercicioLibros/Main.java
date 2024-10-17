@@ -1,4 +1,4 @@
-package com.adtmaven;
+package com.adtmaven.primerEjercicio.ejercicioLibros;
 
 public class Main {
     public static void main(String[] args) {
