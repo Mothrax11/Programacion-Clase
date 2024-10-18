@@ -42,12 +42,13 @@ public class Main {
         }
     }
 
-    public static void transformar(ArrayList<com.adtmaven.ejerciciosFicherosXml.Persona> personas){
+    public static transformar(ArrayList<com.adtmaven.ejerciciosFicherosXml.Persona> personas){
 
         ArrayList<Persona> personas3 = new ArrayList<>();
 
         for(com.adtmaven.ejerciciosFicherosXml.Persona p : personas){
             personas3.add(new Persona(p.getNombre(), p.getDni(), p.getTlfno(), p.getEdad()));
         }
+        return personas3;
     }
 }

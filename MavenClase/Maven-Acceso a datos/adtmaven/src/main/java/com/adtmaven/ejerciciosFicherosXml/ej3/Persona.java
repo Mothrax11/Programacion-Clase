@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlType;
 
 
 @XmlType(propOrder = {"nombre", "dni", "telefono", "edad"})
-public class Persona implements Serializable{
+public class Persona {
 
     private String nombre;
     private String dni;
