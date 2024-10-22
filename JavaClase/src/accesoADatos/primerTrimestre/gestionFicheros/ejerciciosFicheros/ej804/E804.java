@@ -1,4 +1,4 @@
-package accesoADatos.gestionFicheros.ejerciciosFicheros.ej804;
+package accesoADatos.primerTrimestre.gestionFicheros.ejerciciosFicheros.ej804;
 
 import java.io.BufferedReader;
 import java.io.File;

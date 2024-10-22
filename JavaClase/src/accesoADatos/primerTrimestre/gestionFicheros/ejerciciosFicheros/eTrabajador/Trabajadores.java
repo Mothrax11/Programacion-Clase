@@ -1,4 +1,4 @@
-package accesoADatos.gestionFicheros.ejerciciosFicheros.eTrabajador;
+package accesoADatos.primerTrimestre.gestionFicheros.ejerciciosFicheros.eTrabajador;
 
 import java.io.DataInputStream;
 import java.io.File;

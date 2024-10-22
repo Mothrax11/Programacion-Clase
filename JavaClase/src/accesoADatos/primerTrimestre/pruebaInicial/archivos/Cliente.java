@@ -1,11 +1,11 @@
-package accesoADatos.pruebaInicial.archivos;
+package accesoADatos.primerTrimestre.pruebaInicial.archivos;
 import java.util.Scanner;
 
-import accesoADatos.pruebaInicial.archivos.documentaciones.Documentacion;
-import accesoADatos.pruebaInicial.archivos.documentaciones.Nie;
-import accesoADatos.pruebaInicial.archivos.documentaciones.Nif;
-import accesoADatos.pruebaInicial.archivos.notificaciones.Notificacion;
-import accesoADatos.pruebaInicial.archivos.notificaciones.NotificacionEMail;
+import accesoADatos.primerTrimestre.pruebaInicial.archivos.documentaciones.Documentacion;
+import accesoADatos.primerTrimestre.pruebaInicial.archivos.documentaciones.Nie;
+import accesoADatos.primerTrimestre.pruebaInicial.archivos.documentaciones.Nif;
+import accesoADatos.primerTrimestre.pruebaInicial.archivos.notificaciones.Notificacion;
+import accesoADatos.primerTrimestre.pruebaInicial.archivos.notificaciones.NotificacionEMail;
 
 public class Cliente {
     private Documentacion id;
